@@ -1782,28 +1782,6 @@
   pointer-events: none;
   background-size: 100% !important;
 }
-:root [class*=notAppAsidePanel] > [class*=app]::before {
-  left: 0;
-  top: 0;
-  width: 250px;
-  height: 250px;
-  background: url("https://i.imgur.com/jTpFJuI.png") no-repeat;
-}
-:root [class*=notAppAsidePanel] > [class*=app]::after {
-  z-index: 0;
-  left: 50px;
-  bottom: 0;
-  width: 490px;
-  height: 40px;
-  background: url("https://i.imgur.com/KQQWcTY.png") no-repeat;
-}
-:root [class*=notAppAsidePanel] > [class*=app] > [class*=app]::before {
-  top: 80px;
-  right: 116px;
-  width: 200px;
-  height: 120px;
-  background: url("https://i.imgur.com/0nsnP69.png") no-repeat;
-}
 :root [class*=notAppAsidePanel] > [class*=app] > [class*=app]::after {
   bottom: 20px;
   right: 45%;
